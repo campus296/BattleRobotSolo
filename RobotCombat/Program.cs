@@ -41,7 +41,7 @@ namespace RobotCombat
                 Console.WriteLine();
                 Console.WriteLine("En attente de la configuration du client...");
 
-                serveur.RecevoirConfigurationClient();
+                serveur.RecevoirConfigClient();
 
                 serveur.LancerCombat();
 

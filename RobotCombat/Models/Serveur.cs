@@ -95,7 +95,7 @@ namespace RobotCombat.Models
             Console.WriteLine();
             Console.WriteLine("Client connecté !");
         }
-        public void RecevoirConfigurationClient()
+        public void RecevoirConfigClient()
         {
             if (SocketClient == null)
             {
@@ -219,7 +219,7 @@ namespace RobotCombat.Models
 
         public void LancerCombat()
         {
-            Partie.Status = 1;
+            Partie.Statut = 1;
 
             while (Partie.RobotServeur.Pv > 0 &&
                    Partie.RobotClient.Pv > 0)
