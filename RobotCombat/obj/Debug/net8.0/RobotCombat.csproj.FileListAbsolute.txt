@@ -1,0 +1,15 @@
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\bin\Debug\net8.0\RobotCombat.exe
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\bin\Debug\net8.0\RobotCombat.deps.json
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\bin\Debug\net8.0\RobotCombat.runtimeconfig.json
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\bin\Debug\net8.0\RobotCombat.dll
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\bin\Debug\net8.0\RobotCombat.pdb
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\obj\Debug\net8.0\RobotCombat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\obj\Debug\net8.0\RobotCombat.AssemblyInfoInputs.cache
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\obj\Debug\net8.0\RobotCombat.AssemblyInfo.cs
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\obj\Debug\net8.0\RobotCombat.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\obj\Debug\net8.0\RobotCombat.sourcelink.json
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\obj\Debug\net8.0\RobotCombat.dll
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\obj\Debug\net8.0\refint\RobotCombat.dll
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\obj\Debug\net8.0\RobotCombat.pdb
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\obj\Debug\net8.0\RobotCombat.genruntimeconfig.cache
+C:\Users\Utilisateur\Documents\BattleRobotSolo\RobotCombat\obj\Debug\net8.0\ref\RobotCombat.dll

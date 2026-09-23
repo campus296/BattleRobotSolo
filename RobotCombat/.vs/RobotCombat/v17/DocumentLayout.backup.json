@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat\\models\\serveur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|solutionrelative:models\\serveur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat\\models\\joueur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|solutionrelative:models\\joueur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat\\models\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|solutionrelative:models\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat\\models\\partie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|solutionrelative:models\\partie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "Models\\Client.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Models\\Client.cs",
+              "RelativeToolTip": "Models\\Client.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAUwFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T03:49:58.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Serveur.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Models\\Serveur.cs",
+              "RelativeDocumentMoniker": "Models\\Serveur.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Models\\Serveur.cs",
+              "RelativeToolTip": "Models\\Serveur.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAiwP8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T03:46:24.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Joueur.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Models\\Joueur.cs",
+              "RelativeDocumentMoniker": "Models\\Joueur.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Models\\Joueur.cs",
+              "RelativeToolTip": "Models\\Joueur.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswHIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T03:33:11.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Partie.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Models\\Partie.cs",
+              "RelativeDocumentMoniker": "Models\\Partie.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Models\\Partie.cs",
+              "RelativeToolTip": "Models\\Partie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T03:31:14.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Robot.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Models\\Robot.cs",
+              "RelativeDocumentMoniker": "Models\\Robot.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Models\\Robot.cs",
+              "RelativeToolTip": "Models\\Robot.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAkwEsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T03:26:05.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T03:22:56.114Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
