@@ -3,13 +3,21 @@
   "WorkspaceRootPath": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat\\models\\serveur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|solutionrelative:models\\serveur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat\\models\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|solutionrelative:models\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4EB6E6C-7D8A-47C5-A59D-4110988C544B}|..\\RobotCombat.Tests\\RobotCombat.Tests.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat.tests\\serveurtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4EB6E6C-7D8A-47C5-A59D-4110988C544B}|..\\RobotCombat.Tests\\RobotCombat.Tests.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat.tests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4EB6E6C-7D8A-47C5-A59D-4110988C544B}|..\\RobotCombat.Tests\\RobotCombat.Tests.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat.tests\\robottests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4EB6E6C-7D8A-47C5-A59D-4110988C544B}|..\\RobotCombat.Tests\\RobotCombat.Tests.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat.tests\\robottests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4EB6E6C-7D8A-47C5-A59D-4110988C544B}|..\\RobotCombat.Tests\\RobotCombat.Tests.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat.tests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -20,16 +28,8 @@
       "RelativeMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|solutionrelative:system.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat\\models\\serveur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|solutionrelative:models\\serveur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|solutionrelative:models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat\\models\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|solutionrelative:models\\robot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{95F4838A-18B5-4B3B-8D82-554F16C2D2B4}|RobotCombat.csproj|c:\\users\\utilisateur\\documents\\battlerobotsolo\\robotcombat\\models\\joueur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,24 +47,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ServeurTests.cs",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat.Tests\\ServeurTests.cs",
               "RelativeDocumentMoniker": "..\\RobotCombat.Tests\\ServeurTests.cs",
-              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat.Tests\\ServeurTests.cs*",
-              "RelativeToolTip": "..\\RobotCombat.Tests\\ServeurTests.cs*",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAqwIEAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat.Tests\\ServeurTests.cs",
+              "RelativeToolTip": "..\\RobotCombat.Tests\\ServeurTests.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-28T00:04:16.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MSTestSettings.cs",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat.Tests\\MSTestSettings.cs",
               "RelativeDocumentMoniker": "..\\RobotCombat.Tests\\MSTestSettings.cs",
@@ -77,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RobotTests.cs",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat.Tests\\RobotTests.cs",
               "RelativeDocumentMoniker": "..\\RobotCombat.Tests\\RobotTests.cs",
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "System.cs",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\System.cs",
               "RelativeDocumentMoniker": "System.cs",
@@ -107,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Models\\Client.cs",
               "RelativeDocumentMoniker": "Models\\Client.cs",
@@ -120,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Serveur.cs",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Models\\Serveur.cs",
               "RelativeDocumentMoniker": "Models\\Serveur.cs",
               "ToolTip": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Models\\Serveur.cs",
               "RelativeToolTip": "Models\\Serveur.cs",
-              "ViewState": "AgIAACoBAAAAAAAAAAAiwEkBAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-23T03:46:24.332Z",
               "EditorCaption": ""
@@ -159,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Robot.cs",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Models\\Robot.cs",
               "RelativeDocumentMoniker": "Models\\Robot.cs",
@@ -172,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
