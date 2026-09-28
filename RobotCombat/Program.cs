@@ -7,92 +7,219 @@ namespace RobotCombat
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("================================");
-            Console.WriteLine("       COMBAT DE ROBOTS");
-            Console.WriteLine("================================");
+            Console.WriteLine("=== COMBAT DE ROBOTS ===");
             Console.WriteLine();
+            Console.WriteLine("1 - Serveur");
+            Console.WriteLine("2 - Client");
+            Console.Write("Choix : ");
 
-            Console.WriteLine("1 - Héberger une partie");
-            Console.WriteLine("2 - Rejoindre une partie");
-            Console.WriteLine();
-
-            Console.Write("Votre choix : ");
-            int choix = Joueur.SaisirInt();
-
-            Console.Clear();
+            int choix = System.SaisirInt();
 
             if (choix == 1)
             {
-                Console.WriteLine("=== CRÉATION DU SERVEUR ===");
                 Console.WriteLine();
+                Console.WriteLine("=== SERVEUR ===");
 
                 Console.Write("Nom du joueur : ");
-                string nom = Console.ReadLine() ?? "Serveur";
+                string nom = Console.ReadLine() ?? "";
 
                 Console.Write("Port : ");
-                int port = Joueur.SaisirInt();
+                int port = System.SaisirInt();
 
                 Serveur serveur = new Serveur(nom, port);
 
+                // Le serveur est démarré une seule fois
                 serveur.LancerHerbergement();
 
-                serveur.SaisirConfigurationRobot();
+                // Boucle permettant d'accepter plusieurs clients
+                while (true)
+                {
+                    serveur.AttendreClient();
 
-                Console.WriteLine();
-                Console.WriteLine("En attente de la configuration du client...");
+                    serveur.Partie = new Partie();
 
-                serveur.RecevoirConfigClient();
+                    bool rejouer = true;
 
-                serveur.LancerCombat();
+                    // Plusieurs parties possibles avec le même client
+                    while (rejouer)
+                    {
+                        serveur.ConfigRobot();
 
-                Console.WriteLine();
-                serveur.AfficherPartie(serveur.Partie);
+                        serveur.RecevoirConfigurationClient();
 
-                Console.ReadLine();
+                        while (serveur.Partie.Status == -10)
+                        {
+                            serveur.TransmettreMiseAJour();
+
+                            if (serveur.Partie.Status != -10)
+                            {
+                                break;
+                            }
+
+                            serveur.RecevoirConfigurationClient();
+                        }
+
+                        if (serveur.Partie.Status == -3)
+                        {
+                            break;
+                        }
+
+                        serveur.TransmettreMiseAJour();
+
+                        if (serveur.Partie.Status == -3)
+                        {
+                            break;
+                        }
+
+                        System.AfficherPartie(serveur.Partie);
+
+                        while (serveur.Partie.Status == 1)
+                        {
+                            serveur.RecevoirAction();
+
+                            while (serveur.Partie.Status == -11)
+                            {
+                                serveur.TransmettreMiseAJour();
+
+                                if (serveur.Partie.Status != -11)
+                                {
+                                    break;
+                                }
+
+                                serveur.RecevoirAction();
+                            }
+
+                            if (serveur.Partie.Status != 1)
+                            {
+                                break;
+                            }
+
+                            serveur.JouerTourServeur();
+
+                            serveur.AppliquerActions();
+
+                            serveur.TransmettreMiseAJour();
+
+                            if (serveur.Partie.Status == 1)
+                            {
+                                System.AfficherPartie(serveur.Partie);
+                            }
+                        }
+
+                        if (serveur.Partie.Status == -3)
+                        {
+                            break;
+                        }
+
+                        System.AfficherFinPartie(serveur.Partie);
+
+                        int choixRejouer = serveur.RejouerPartie();
+
+                        if (serveur.Partie.Status == -3)
+                        {
+                            break;
+                        }
+
+                        if (choixRejouer == 1)
+                        {
+                            serveur.Partie = new Partie();
+                        }
+                        else
+                        {
+                            rejouer = false;
+                        }
+                    }
+
+                    if (serveur.Partie.Status == -3)
+                    {
+                        System.AfficherDeconnexion();
+                    }
+
+                    serveur.SocketClient?.Close();
+                    serveur.SocketClient = null;
+                }
             }
             else if (choix == 2)
             {
-                Console.WriteLine("=== CONNEXION AU SERVEUR ===");
                 Console.WriteLine();
+                Console.WriteLine("=== CLIENT ===");
 
                 Console.Write("Nom du joueur : ");
-                string nom = Console.ReadLine() ?? "Client";
+                string nom = Console.ReadLine() ?? "";
 
-                Console.Write("Adresse IP du serveur : ");
-                string saisieIP = Console.ReadLine() ?? "";
+                IPAddress ip = System.SaisirIP();
 
-                IPAddress adresseIP = Client.SaisirIP(saisieIP);
-
-                Console.Write("Port du serveur : ");
-                int port = Joueur.SaisirInt();
+                Console.Write("Port : ");
+                int port = System.SaisirInt();
 
                 Client client = new Client(nom, port);
 
-                client.SeConnecter(adresseIP, port);
+                client.SeConnecter(ip, port);
 
-                client.SaisirConfigurationRobot();
+                bool rejouer = true;
 
-                while (true)
+                while (rejouer)
                 {
-                    Console.WriteLine();
-                    Console.WriteLine($"=== TOUR DE {client.Nom} ===");
+                    client.ConfigRobot();
 
-                    int action = client.JouerAction();
+                    client.RecevoirMiseAJour();
 
-                    client.EnvoyerAction(action);
+                    while (client.Partie.Status == -10)
+                    {
+                        Console.WriteLine();
+                        Console.WriteLine("Configuration invalide. Veuillez recommencer.");
 
-                    Console.WriteLine("Action envoyée.");
+                        client.ConfigRobot();
 
-                    // Temporaire pour synchroniser avec le serveur
-                    Console.WriteLine();
-                    Console.WriteLine("Appuyez sur Entrée pour continuer...");
-                    Console.ReadLine();
+                        client.RecevoirMiseAJour();
+                    }
+
+                    System.AfficherPartie(client.Partie);
+
+                    while (client.Partie.Status == 1)
+                    {
+                        int action = System.JouerAction();
+
+                        client.EnvoyerAction(action);
+
+                        client.RecevoirMiseAJour();
+
+                        while (client.Partie.Status == -11)
+                        {
+                            Console.WriteLine("Action invalide. Veuillez recommencer.");
+
+                            action = System.JouerAction();
+
+                            client.EnvoyerAction(action);
+
+                            client.RecevoirMiseAJour();
+                        }
+
+                        System.AfficherPartie(client.Partie);
+                    }
+
+                    System.AfficherFinPartie(client.Partie);
+
+                    int choixRejouer = System.SaisirRejouer();
+
+                    client.RejouerPartie(choixRejouer);
+
+                    if (choixRejouer == 1)
+                    {
+                        client.Partie = new Partie();
+                    }
+                    else
+                    {
+                        rejouer = false;
+                    }
                 }
             }
             else
             {
                 Console.WriteLine("Choix invalide.");
             }
+
+            Console.ReadLine();
         }
     }
 }

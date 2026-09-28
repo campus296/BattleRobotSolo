@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using System.Text.Json;
 
 namespace RobotCombat.Models
 {
@@ -14,54 +15,31 @@ namespace RobotCombat.Models
         {
         }
 
-        // Configure le robot du client
-        public override void ConfigRobot(int pv, int armure, int force)
+        public override void ConfigRobot()
         {
+            var config = System.SaisirConfigRobot();
+
             if (Socket == null)
             {
-                Console.WriteLine("Le client n'est pas connecté.");
                 return;
             }
 
-            string configuration = $"{pv};{armure};{force}";
+            string configuration = $"{config.pv};{config.armure};{config.degats}";
 
             byte[] donnees = Encoding.UTF8.GetBytes(configuration);
 
             Socket.Send(donnees);
-
-            Console.WriteLine();
-            Console.WriteLine("Configuration envoyée au serveur.");
         }
 
-        // Vérifie et retourne une adresse IP valide
-        public static IPAddress SaisirIP(string saisie)
-        {
-            IPAddress? adresseIP;
-
-            while (!IPAddress.TryParse(saisie, out adresseIP))
-            {
-                Console.Write("Adresse IP invalide. Réessayez : ");
-                saisie = Console.ReadLine() ?? "";
-            }
-
-            return adresseIP;
-        }
-
-        // Se connecte au serveur
         public void SeConnecter(IPAddress ip, int port)
         {
             EndPoint = new IPEndPoint(ip, port);
 
-            Socket = new Socket(
-                AddressFamily.InterNetwork,
-                SocketType.Stream,
-                ProtocolType.Tcp
-            );
+            Socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 
             Console.WriteLine();
             Console.WriteLine($"Connexion à {ip}:{port}...");
 
-            // Synchrone : attend que la connexion soit établie
             Socket.Connect(EndPoint);
 
             Console.WriteLine("Connexion réussie !");
@@ -71,13 +49,45 @@ namespace RobotCombat.Models
         {
             if (Socket == null)
             {
-                Console.WriteLine("Le client n'est pas connecté.");
                 return;
             }
 
             string message = action.ToString();
 
             byte[] donnees = Encoding.UTF8.GetBytes(message);
+
+            Socket.Send(donnees);
+        }
+
+        public void RecevoirMiseAJour()
+        {
+            if (Socket == null)
+            {
+                return;
+            }
+
+            byte[] buffer = new byte[4096];
+
+            int nbOctets = Socket.Receive(buffer);
+
+            string json = Encoding.UTF8.GetString(buffer, 0, nbOctets);
+
+            Partie? partieRecue = JsonSerializer.Deserialize<Partie>(json);
+
+            if (partieRecue != null)
+            {
+                Partie = partieRecue;
+            }
+        }
+
+        public void RejouerPartie(int choix)
+        {
+            if (Socket == null)
+            {
+                return;
+            }
+
+            byte[] donnees = Encoding.UTF8.GetBytes(choix.ToString());
 
             Socket.Send(donnees);
         }
