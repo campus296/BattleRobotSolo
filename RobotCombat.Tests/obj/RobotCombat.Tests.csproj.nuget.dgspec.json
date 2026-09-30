@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat.Tests\\RobotCombat.Tests.csproj": {}
+    "P:\\Automne2026\\DevAppli\\BattleRobotSolo\\RobotCombat.Tests\\RobotCombat.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat.Tests\\RobotCombat.Tests.csproj": {
+    "P:\\Automne2026\\DevAppli\\BattleRobotSolo\\RobotCombat.Tests\\RobotCombat.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat.Tests\\RobotCombat.Tests.csproj",
+        "projectUniqueName": "P:\\Automne2026\\DevAppli\\BattleRobotSolo\\RobotCombat.Tests\\RobotCombat.Tests.csproj",
         "projectName": "RobotCombat.Tests",
-        "projectPath": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat.Tests\\RobotCombat.Tests.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat.Tests\\obj\\",
+        "projectPath": "P:\\Automne2026\\DevAppli\\BattleRobotSolo\\RobotCombat.Tests\\RobotCombat.Tests.csproj",
+        "packagesPath": "C:\\Users\\2033511\\.nuget\\packages\\",
+        "outputPath": "P:\\Automne2026\\DevAppli\\BattleRobotSolo\\RobotCombat.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\2033511\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,10 +31,11 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\RobotCombat.csproj": {
-                "projectPath": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\RobotCombat.csproj"
+              "P:\\Automne2026\\DevAppli\\BattleRobotSolo\\RobotCombat\\RobotCombat.csproj": {
+                "projectPath": "P:\\Automne2026\\DevAppli\\BattleRobotSolo\\RobotCombat\\RobotCombat.csproj"
               }
             }
           }
@@ -49,10 +50,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "MSTest": {
@@ -80,24 +82,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\RobotCombat.csproj": {
+    "P:\\Automne2026\\DevAppli\\BattleRobotSolo\\RobotCombat\\RobotCombat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\RobotCombat.csproj",
+        "projectUniqueName": "P:\\Automne2026\\DevAppli\\BattleRobotSolo\\RobotCombat\\RobotCombat.csproj",
         "projectName": "RobotCombat",
-        "projectPath": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\RobotCombat.csproj",
-        "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utilisateur\\Documents\\BattleRobotSolo\\RobotCombat\\obj\\",
+        "projectPath": "P:\\Automne2026\\DevAppli\\BattleRobotSolo\\RobotCombat\\RobotCombat.csproj",
+        "packagesPath": "C:\\Users\\2033511\\.nuget\\packages\\",
+        "outputPath": "P:\\Automne2026\\DevAppli\\BattleRobotSolo\\RobotCombat\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\2033511\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -111,6 +113,7 @@
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -125,10 +128,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -146,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

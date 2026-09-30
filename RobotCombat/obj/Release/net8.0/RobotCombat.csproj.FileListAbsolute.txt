@@ -1,0 +1,15 @@
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\bin\Release\net8.0\RobotCombat.exe
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\bin\Release\net8.0\RobotCombat.deps.json
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\bin\Release\net8.0\RobotCombat.runtimeconfig.json
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\bin\Release\net8.0\RobotCombat.dll
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\bin\Release\net8.0\RobotCombat.pdb
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\obj\Release\net8.0\RobotCombat.GeneratedMSBuildEditorConfig.editorconfig
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\obj\Release\net8.0\RobotCombat.AssemblyInfoInputs.cache
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\obj\Release\net8.0\RobotCombat.AssemblyInfo.cs
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\obj\Release\net8.0\RobotCombat.csproj.CoreCompileInputs.cache
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\obj\Release\net8.0\RobotCombat.sourcelink.json
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\obj\Release\net8.0\RobotCombat.dll
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\obj\Release\net8.0\refint\RobotCombat.dll
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\obj\Release\net8.0\RobotCombat.pdb
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\obj\Release\net8.0\RobotCombat.genruntimeconfig.cache
+P:\Automne2026\DevAppli\BattleRobotSolo\RobotCombat\obj\Release\net8.0\ref\RobotCombat.dll
